@@ -1,0 +1,18 @@
+CONFIG = {
+    'bash_path': '/bin/bash',
+    'deployment_path': '/var/www/InventoryProject/deployment.yaml',
+    'api_base_url': 'http://127.0.0.1:8001/',
+    'namespace': 'default',
+    'pod_creation_timeout': 300,
+    'startup_pod_terminate_timeout': 450,
+    'tests_metrics_scrape_interval': 3,
+    'server_port': 8282,
+    'tests_command': './vendor/bin/phpunit',
+    'github_token': 'ENTER_TOKEN_HERE',
+    'repository_user': 'ads-iu-2020',
+    'repository_name': 'InventoryProject',
+
+    'dataset_file_path': '/var/www/AnomalyDetection/storage/dataset.csv',
+    'augmented_dataset_file_path': '/var/www/AnomalyDetection/storage/dataset_augmented.csv',
+    'pending_file_path': '/var/www/AnomalyDetection/storage/pending.csv'
+}
